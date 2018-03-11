@@ -4,7 +4,6 @@ import {Home, About, Contact, Help} from './components';
 class App extends React.Component{
     render(){
         return(
-            
             <BrowserRouter>
                 <Switch>
                     <Route exact path='/home' component={Home} />
