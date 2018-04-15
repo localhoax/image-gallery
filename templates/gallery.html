@@ -1,0 +1,8 @@
+<div class="image-container img-responsive">
+    <img class="main-img" src="{{ url_for('send_image', filename=images[0]) }}" id="current" alt="Upload some images in the gallery">
+</div>
+<div class="imgs">
+    {% for image in images %}
+        <img class="imgs" src="{{ url_for('send_image', filename=image) }}" />
+    {% endfor %}
+</div>

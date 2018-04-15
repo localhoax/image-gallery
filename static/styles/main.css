@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+  content: '';
+}
+
+.navbar-inner li {
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  border-top: 4px solid white;
+  transition: border-top .3s;
+  margin-top: -8px !important;
+  padding-top: 16px;
+  cursor: pointer;
+  color: dodgerblue !important;
+}
+
+.nav-link:hover {
+  border-top: 4px solid dodgerblue;
+}
+
+.navbar-brand {
+  letter-spacing: 4px !important;
+  border-top: 4px solid white;
+  transition: border-top .3s;
+}
+
+.navbar-brand>a:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, 0.95);
+  /* remove the gradient */
+  background-image: none !important;
+  border-bottom: 2px solid dodgerblue !important;
+  line-height: 40px !important;
+  box-shadow: 0 12px 6px -6px rgba(0, 0, 0, 0.2) !important;
+}
+
+section.container {
+  max-width: 1024px;
+}
+
+.main-img {
+  max-height: 800px;
+  height: 700px;
+  width: 994px;
+  object-fit: contain;
+  object-position: top 75%;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.imgs img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+  height: 150px;
+  object-fit: cover;
+}
+
+canvas {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.btn-disabled {
+  background: white !important;
+  color: black !important;
+  border: 0;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-weight: 1000;
+}
+
+@media(max-width:767px) {
+  .btn-disabled {
+    width: 150px;
+  }
+  .btn-block {
+    display: block;
+    width: 220px;
+    margin: 0 auto;
+  }
+}
+
+.btn-default,
+.btn-info {
+  background: dodgerblue !important;
+  color: white !important;
+}
+
+.btn-info {
+  border-radius: 50% !important;
+  width: 30px !important;
+  height: 30px !important;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  font-weight: 1000;
+}
+
+.btn-danger {
+  background: #f51f33e3 !important;
+}
+
+/* Fade in animation */
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
