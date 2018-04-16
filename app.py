@@ -66,4 +66,4 @@ def static_file_hash(filename):
     return int(os.stat(filename).st_mtime)
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    app.run(port=5000)
