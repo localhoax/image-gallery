@@ -2,14 +2,14 @@
 Image gallery web application built with flask v.0.12 
 #### using flask
 ## Finished
-[X] Initial app idea
-[X] Gallery
-[X] Filter
-[X] Remove Filter
-[X] Download
+-[X] Initial app idea
+-[X] Gallery
+-[X] Filter
+-[X] Remove Filter
+-[X] Download
 
 ## Todo
-[ ] Improve design
+-[ ] Improve design
 
 # Installation
 using git bash terminal
@@ -21,4 +21,4 @@ using git bash terminal
 # Run server
 5. `python app.py`
 
- Server runs on http://localhost:5000/
+ Server runs on `http://localhost:5000/`
