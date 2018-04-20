@@ -2,14 +2,14 @@
 Image gallery web application built with flask v.0.12 
 #### using flask
 ## Finished
--[X] Initial app idea
--[X] Gallery
--[X] Filter
--[X] Remove Filter
--[X] Download
+- Initial app idea
+- Gallery
+- Filter
+- Remove Filter
+-Download
 
 ## Todo
--[ ] Improve design
+- Improve design
 
 # Installation
 using git bash terminal
