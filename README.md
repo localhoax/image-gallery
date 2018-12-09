@@ -1,24 +1,36 @@
-# image-gallery
-Image gallery web application built with flask v.0.12 
-#### using flask
+# Image Gallery (image-gallery)
+Image Gallery Web Application built with Python-Flask v.0.12 
+
+## Preview
+<p align="center">
+ <img src="https://i.gyazo.com/1afeeaf5f7564414747d7ef6134160c3.png" />
+</p>
+<p align="center">
+ <strong> Homepage </strong>
+</p>
+
+---
+## Technology Stack
+* Python3
+* Flash
+* Bootstrap
+* CamanJS
+
 ## Finished
-- Initial app idea
+- Initial app
 - Gallery
-- Filter
+- Filters
 - Remove Filter
--Download
+- Download
 
 ## Todo
 - Improve design
 
-# Installation
-using git bash terminal
+## Installation
 1. `pip install virtualenv`
 2. `virtualenv venv`
-3. `source venv/Scripts/activate`
+3. `source venv/Scripts/activate` or `venv/Scripts/activate`
 4. `pipenv install`
+5.  Run server `python app.py`
 
-# Run server
-5. `python app.py`
-
- Server runs on `http://localhost:5000/`
+ Server should be running on `http://localhost:5000/`
